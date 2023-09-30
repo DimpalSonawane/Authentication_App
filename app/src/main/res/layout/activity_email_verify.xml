@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/black"
+    tools:context=".EmailVerify">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="Verify Email"/>
+
+    <EditText
+        android:id="@+id/txtemail"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:inputType="text"
+        android:background="@drawable/rectangle"
+        android:backgroundTint="#fff"
+        android:textColor="@color/black"
+        android:hint="Enter Your Email Address"
+        android:textColorHint="#555454"/>
+
+    <Button
+        android:id="@+id/btn_check"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="#122FD1"
+        android:layout_marginTop="20dp"
+        android:text="CHECK" />
+
+</LinearLayout>

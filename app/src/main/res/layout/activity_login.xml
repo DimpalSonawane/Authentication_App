@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="15dp"
+    android:background="@drawable/back"
+    tools:context=".Login">
+
+    <TextView
+        android:id="@+id/text"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN" />
+
+    <EditText
+        android:id="@+id/textemail"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:inputType="text"
+        android:background="@drawable/rectangle"
+        android:backgroundTint="#fff"
+        android:textColor="@color/black"
+        android:hint="Email"
+        android:textColorHint="#555454"/>
+
+    <EditText
+        android:id="@+id/textpassword"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/rectangle"
+        android:backgroundTint="#fff"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:hint="Password"
+        android:textColorHint="#555454"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content">
+
+    </ProgressBar>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#EA6035"
+        android:text="LOGIN" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:text="Click here to Register">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/pass"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/rectangle"
+        android:backgroundTint="#634D4D"/>
+
+</LinearLayout>
